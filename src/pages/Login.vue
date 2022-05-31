@@ -1,8 +1,8 @@
 <script>
 export default {
-    name: 'App',
+    name: 'Login',
 };
 </script>
 <template>
-    <router-view></router-view>
+    <h1>Login</h1>
 </template>

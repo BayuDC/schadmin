@@ -5,9 +5,11 @@ specifiers:
   '@parcel/transformer-vue': ^2.6.0
   parcel: ^2.6.0
   vue: ^3.2.36
+  vue-router: ^4.0.15
 
 dependencies:
   vue: 3.2.36
+  vue-router: 4.0.15_vue@3.2.36
 
 devDependencies:
   '@parcel/core': 2.6.0
@@ -1014,6 +1016,10 @@ packages:
       '@vue/compiler-dom': 3.2.36
       '@vue/shared': 3.2.36
 
+  /@vue/devtools-api/6.1.4:
+    resolution: {integrity: sha512-IiA0SvDrJEgXvVxjNkHPFfDx6SXw0b/TUkqMcDZWNg9fnCAHbTpoo59YfJ9QLFkwa3raau5vSlRVzMSLDnfdtQ==}
+    dev: false
+
   /@vue/reactivity-transform/3.2.36:
     resolution: {integrity: sha512-Jk5o2BhpODC9XTA7o4EL8hSJ4JyrFWErLtClG3NH8wDS7ri9jBDWxI7/549T7JY9uilKsaNM+4pJASLj5dtRwA==}
     dependencies:
@@ -1928,6 +1934,15 @@ packages:
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
+
+  /vue-router/4.0.15_vue@3.2.36:
+    resolution: {integrity: sha512-xa+pIN9ZqORdIW1MkN2+d9Ui2pCM1b/UMgwYUCZOiFYHAvz/slKKBDha8DLrh5aCG/RibtrpyhKjKOZ85tYyWg==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.1.4
+      vue: 3.2.36
+    dev: false
 
   /vue/3.2.36:
     resolution: {integrity: sha512-5yTXmrE6gW8IQgttzHW5bfBiFA6mx35ZXHjGLDmKYzW6MMmYvCwuKybANRepwkMYeXw2v1buGg3/lPICY5YlZw==}
